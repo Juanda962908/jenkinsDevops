@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54641" started-at="2020-09-25T10:49:05 GMT-05:00" finished-at="2020-09-25T10:50:00 GMT-05:00">
+  <suite started-at="2021-03-30T14:42:51 COT" name="Default suite" finished-at="2021-03-30T14:42:54 COT" duration-ms="3640">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54641" started-at="2020-09-25T10:49:05 GMT-05:00" finished-at="2020-09-25T10:50:00 GMT-05:00">
+    <test started-at="2021-03-30T14:42:51 COT" name="Default test" finished-at="2021-03-30T14:42:54 COT" duration-ms="3640">
       <class name="launchTest.empresarial.web.LogueoPyme">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:launchTest.empresarial.web.LogueoPyme@1563da5]" name="beforeClass" is-config="true" duration-ms="281" started-at="2020-09-25T10:49:05 GMT-05:00" finished-at="2020-09-25T10:49:05 GMT-05:00">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:launchTest.empresarial.web.LogueoPyme@25d250c6]" started-at="2021-03-30T14:42:51 COT" name="beforeClass" finished-at="2021-03-30T14:42:51 COT" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="DXCExec(int)[pri:0, instance:launchTest.empresarial.web.LogueoPyme@1563da5]" name="DXCExec" duration-ms="51279" started-at="2020-09-25T10:49:05 GMT-05:00" data-provider="globalData" finished-at="2020-09-25T10:49:57 GMT-05:00">
+        <test-method signature="DXCExec(int)[pri:0, instance:launchTest.empresarial.web.LogueoPyme@25d250c6]" started-at="2021-03-30T14:42:51 COT" name="DXCExec" data-provider="globalData" finished-at="2021-03-30T14:42:53 COT" duration-ms="2002" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DXCExec -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:launchTest.empresarial.web.LogueoPyme@1563da5]" name="afterClass" is-config="true" duration-ms="3031" started-at="2020-09-25T10:49:57 GMT-05:00" finished-at="2020-09-25T10:50:00 GMT-05:00">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:launchTest.empresarial.web.LogueoPyme@25d250c6]" started-at="2021-03-30T14:42:53 COT" name="afterClass" finished-at="2021-03-30T14:42:54 COT" duration-ms="1584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

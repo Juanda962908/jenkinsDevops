@@ -84,15 +84,15 @@ public class BasePageWeb {
 	
 	private void chromeDriverConnection()  {
 		// String resource = "./src/main/resources/WebDriver/chromedriver84.exe";
-		String pathResource = "WebDriver/chromedriver84.exe";
-		String resource = DXCUtil.PATH_RESOURCES + "/" + pathResource;
-		System.setProperty("webdriver.chrome.driver", this.getClass().getResource(resource).getFile());
+		//String pathResource = "WebDriver/chromedriver84.exe";
+		//String resource = DXCUtil.PATH_RESOURCES + "/" + pathResource;
+	//	System.setProperty("webdriver.chrome.driver", this.getClass().getResource(resource).getFile());
 		
 		if (this.downloadFilePath.equals("")) {
 		    try{
 		    DesiredCapabilities cap = new DesiredCapabilities();
 		    cap.setBrowserName("chrome");
-		    this.driver = new RemoteWebDriver(new URL("http://selenium-v2-selenium-hub.selenium.svc.cluster.local:4444/wd/hub"),cap);
+			 this.driver = new RemoteWebDriver(new URL("http://localhost:4446/wd/hub"), cap);
 		    }catch (Exception e){
 		       e.printStackTrace();
 		    }
